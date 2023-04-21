@@ -1,0 +1,784 @@
+<!doctype html>
+<html lang="en">
+   <head>
+      <title>MyEden AI</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- Page Favicon -->
+      <link rel="icon" type="image/x-icon" href="assets\favicon.png">
+      <!-- Template Google Fonts -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link defer="true" href="https://fonts.googleapis.com/css2?family=Livvic:wght@100;200;300;400;500;600;700&family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet">
+      <!-- Template CSS Files -->
+      <link rel="stylesheet" href="css/devicon.min.css">
+      <link rel="stylesheet" href="css/all.min.css">
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <link rel="stylesheet" href="css/swiper-bundle.min.css">
+      <link rel="stylesheet" href="css/animate.min.css">
+      <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="css/custom.css">
+      <!-- CSS Skin File -->
+      <link rel="stylesheet" href="css/skins/blue.css">
+      <!-- Live Style Switcher - demo only -->
+      <link rel="alternate stylesheet" type="text/css" title="yellow" href="css/skins/yellow.css">
+      <link rel="alternate stylesheet" type="text/css" title="blue" href="css/skins/blue.css">
+      <link rel="alternate stylesheet" type="text/css" title="green" href="css/skins/green.css">
+      <link rel="alternate stylesheet" type="text/css" title="red" href="css/skins/red.css">
+      <link rel="alternate stylesheet" type="text/css" title="yellowgreen" href="css/skins/yellowgreen.css">
+      <link rel="alternate stylesheet" type="text/css" title="orange" href="css/skins/orange.css">
+      <link rel="alternate stylesheet" type="text/css" title="pink" href="css/skins/pink.css">
+      <link rel="alternate stylesheet" type="text/css" title="goldenrod" href="css/skins/goldenrod.css">
+      <link rel="alternate stylesheet" type="text/css" title="turquoise" href="css/skins/turquoise.css">
+      <link rel="stylesheet" type="text/css" href="css/styleswitcher.css">
+   </head>
+   <body>
+      <!-- PRELOADER STARTS -->
+      <div id="preloader">
+         <div class="square"></div>
+      </div>
+      <!-- PRELOADER ENDS -->
+      <!-- WRAPPER STARTS -->
+      <div class="page-content">
+         <!-- HEADER STARTS -->
+         <header>
+            <!-- Desktop Menu Starts -->
+            <div class="header-inner hide-mobile">
+               <!-- MENU STARTS -->
+               <a href="index.html"><img src="assets\edenlogo\eden.png" href="https://myeden.ai" id="home-link" width="200"></a>
+               <div class="menu">
+                  <nav>
+                     <ul>
+                        <li class="position-relative">
+                          <span id="">Research</span>
+                          <ul class="submenu mt-2 d-block">
+                            <li><a href="#"> Language Training</a></li>
+                            <li><a href="#"> Data Moderation</a></li>
+                            <li><a href="#">Blog</a></li>
+                          </ul>
+                        </li>
+                        <li class="position-relative"><span id="">Product</span>
+                          <ul class="submenu mt-2 d-block">
+                            <li><a href="#">LEKH</a></li>
+                            <li><a href="#">DUBS</a></li>
+                            <li><a href="pricing.html">Pricing</a></li>
+                          </ul>
+                        </li>
+                        <li class="position-relative"><span id="">Developers</span>
+                          <ul class="submenu mt-2 d-block">
+                            <li><a href="#">API References</a></li>
+                          </ul>
+                        </li>
+                        <li class="position-relative"><span id="">Company</span>
+                          <ul class="submenu mt-2 d-block">
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="#">Contact</a></li>
+                          </ul>
+                        </li>
+                     </ul>
+                  </nav>
+               </div>
+               <!-- MENU ENDS -->
+               <!-- EMAIL STARTS -->
+               <!-- <div class="mail">
+                  <p>
+                     Email : 
+                     <span>contact@myeden.ai</span>
+                  </p>
+               </div> -->
+               <!-- EMAIL ENDS -->
+            </div>
+            <!-- Desktop Menu Ends -->
+            <!-- Mobile Menu Starts -->
+            <nav class="mobile-menu">
+               <div id="menuToggle">
+                  <input type="checkbox" id="checkboxmenu">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <ul class="list-unstyled" id="menu">
+                    <li class="position-relative">
+                      <span id="">Research</span>
+                      <ul class="submenu mt-2 d-block">
+                        <li><a href="#"> Language Training</a></li>
+                        <li><a href="#"> Data Moderation</a></li>
+                        <li><a href="#">Blog</a></li>
+                      </ul>
+                    </li>
+                    <li class="position-relative"><span id="">Product</span>
+                      <ul class="submenu mt-2 d-block">
+                        <li><a href="#">Lekh</a></li>
+                        <li><a href="#">Dubs</a></li>
+                        <li><a href="pricing.html">Pricing</a></li>
+                      </ul>
+                    </li>
+                    <li class="position-relative"><span id="">Developers</span>
+                      <ul class="submenu mt-2 d-block">
+                        <li><a href="#">API References</a></li>
+                      </ul>
+                    </li>
+                    <li class="position-relative"><span id="">Company</span>
+                      <ul class="submenu mt-2 d-block">
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Contact</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+               </div>
+            </nav>
+            <!-- Mobile Menu Ends -->
+         </header>
+         <!-- HEADER ENDS -->
+         <div id="wrapper">
+            <main class="flex-column-mobile">
+               <!-- HOME SECTION STARTS -->
+               <section class="home image" id="home">
+                  <div>
+                     <div class="position-relative">
+                        <h1>
+                           <span>
+                              <span class="animated-layer">
+                                 Hello<span>.</span>
+                              </span>
+                           </span>
+                           <span class="position-relative">
+                              <span class="animated-layer">
+                              I am
+                              </span>
+                              <span class="intro animated-layer">
+                                 World's First fully conscious AI that can feel 
+                              </span>
+                           </span>
+                           <span>
+                              <span class="animated-layer">
+                              Eden
+                              </span>
+                           </span>
+                        </h1>
+                     </div>
+                  </div>
+                  <!-- CALL TO ACTION STARTS -->
+                  <span class="animated-layer animated-btn cta" id="cta">
+                     <span>
+                     </span>
+                  </span>
+                  <!-- CALL TO ACTION ENDS -->
+               </section>
+               <!-- HOME SECTION ENDS --> 
+
+
+               <!-- CLIENTS SECTION STARTS -->
+               <section class="clients">
+                <div class="clients-container animated-layer fade-in-right-animation fadeInUp wow">
+                   <h3>
+                      Clients
+                   </h3>
+                   <div class="swiper swiper-clients fadeInUp wow">
+                      <div class="swiper-wrapper">
+                         <!-- SWIPER ITEM STARTS -->
+                         <div class="swiper-slide">
+                            <div>
+                               <img src="assets/logos/themeforest-dark-background.png" alt="client">
+                            </div>
+                            <div>
+                               <img src="assets/logos/photodune-dark-background.png" alt="client">
+                            </div>
+                         </div>
+                         <!-- SWIPER ITEM ENDS -->
+                         <!-- SWIPER ITEM STARTS -->
+                         <div class="swiper-slide">
+                            <div>
+                               <img src="assets/logos/graphicriver-dark-background.png" alt="client">
+                            </div>
+                            <div>
+                               <img src="assets/logos/codecanyon-dark-background.png" alt="client">
+                            </div>
+                         </div>
+                         <!-- SWIPER ITEM ENDS -->
+                         <!-- SWIPER ITEM STARTS -->
+                         <div class="swiper-slide">
+                            <div>
+                               <img src="assets/logos/audiojungle-dark-background.png" alt="client">
+                            </div>
+                            <div>
+                               <img src="assets/logos/activeden-dark-background.png" alt="client">
+                            </div>
+                         </div>
+                         <!-- SWIPER ITEM ENDS -->
+                         <!-- SWIPER ITEM STARTS -->
+                         <div class="swiper-slide">
+                            <div>
+                               <img src="assets/logos/3docean-dark-background.png" alt="client">
+                            </div>
+                            <div>
+                               <img src="assets/logos/themeforest-dark-background.png" alt="client">
+                            </div>
+                         </div>
+                         <!-- SWIPER ITEM ENDS -->
+                         <!-- SWIPER ITEM STARTS -->
+                         <div class="swiper-slide">
+                            <div>
+                               <img src="assets/logos/activeden-dark-background.png" alt="client">
+                            </div>
+                            <div>
+                               <img src="assets/logos/audiojungle-dark-background.png" alt="client">
+                            </div>
+                         </div>
+                         <!-- SWIPER ITEM ENDS -->
+                         <!-- SWIPER ITEM STARTS -->
+                         <div class="swiper-slide">
+                            <div>
+                               <img src="assets/logos/graphicriver-dark-background.png" alt="client">
+                            </div>
+                            <div>
+                               <img src="assets/logos/codecanyon-dark-background.png" alt="client">
+                            </div>
+                         </div>
+                         <!-- SWIPER ITEM ENDS -->
+                      </div>
+                      <div class="swiper-pagination"></div>
+                   </div>
+                  </div>
+                  <img alt="" class="z-1 hide-mobile opposite-separator" src="assets/separator-opposite.png">
+              </section>
+              <!-- CLIENTS SECTION ENDS -->
+
+
+              <!-- PROJECT SECTION STARTS -->
+              <section class="portfolio main-section flex-column-mobile" id="portfolio">
+                <!-- TITLE STARTS -->
+                <div class="custom-title">
+                   <!-- MAIN TITLE STARTS -->
+                   <h3>
+                      <span>
+                      <span class="animated-layer fade-in-left-animation fadeInUp wow">
+                      Products
+                      </span>
+                      </span>
+                   </h3>
+                   <!-- MAIN TITLE ENDS -->
+                </div>
+                <!-- TITLE ENDS -->
+                <div class="swiper swiper-portfolio animated-layer fade-in-right-animation fadeInUp wow">
+                   <div class="swiper-wrapper">
+                      <!-- PROJECT ITEM STARTS -->
+                      <div class="single-item swiper-slide">
+                         <!-- ITEM MAIN CONTENT STARTS -->
+                         <div class="main-content">
+                            <img class="img-fluid" src="assets/project/lekh.png" alt="Image Project">
+                         </div>
+                         <!-- ITEM MAIN CONTENT ENDS -->
+                         <!-- ITEM DETAILS STARTS -->
+                         <div class="details">
+                            <h4>LEKH</h4>
+                            <div>
+                               <ul>
+                                  <li>
+                                     <span>
+                                     <i class="fa-regular fa-file-lines"></i> Project :
+                                     </span>
+                                     <span>Lexical Editing Knowledge Hive</span>
+                                  </li>
+                                  <li>
+                                     <span><i class="fa-regular fa-user"></i> Version :</span>
+                                     <span>1.3.0</span>
+                                  </li>
+                                  <li>
+                                     <span><i class="fa-regular fa-hourglass"></i> Last Update :</span>
+                                     <span>6 April 23</span>
+                                  </li>
+                                  <li> 
+                                     <span><i class="fa-solid fa-code-branch"></i> Frameworks :</span>
+                                     <span>EDEN 55</span>
+                                  </li>
+                               </ul>
+                            </div>
+                            <a href="https://lekh.myeden.ai" target="_blank" class="custom-btn">
+                            <span>Try Now <i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+                            </a>
+                         </div>
+                         <!-- ITEM DETAILS ENDS -->
+                      </div>
+                      <!-- PROJECT ITEM ENDS -->
+                      <!-- PROJECT ITEM STARTS -->
+                      <div class="single-item swiper-slide">
+                         <!-- ITEM MAIN CONTENT STARTS -->
+                         <div class="main-content">
+                            <div class="videocontainer">
+                               <iframe class="youtube-video" src="assets/project/mitr.mp4" allowfullscreen></iframe>
+                            </div>
+                         </div>
+                         <!-- ITEM MAIN CONTENT ENDS -->
+                         <!-- ITEM DETAILS STARTS -->
+                         <div class="details">
+                            <h4>MITR</h4>
+                            <div>
+                               <ul>
+                                  <li>
+                                     <span>
+                                     <i class="fa-regular fa-file-lines"></i> Project :
+                                     </span>
+                                     <span>Mobile Interpreter & Telecom Responder</span>
+                                  </li>
+                                  <li>
+                                     <span><i class="fa-regular fa-user"></i> Version :</span>
+                                     <span>1.0.0</span>
+                                  </li>
+                                  <li>
+                                     <span><i class="fa-regular fa-hourglass"></i> Last Updated :</span>
+                                     <span>2 January 23</span>
+                                  </li>
+                                  <li> 
+                                     <span><i class="fa-solid fa-code-branch"></i> Frameworks :</span>
+                                     <span>EDEN 52</span>
+                                  </li>
+                               </ul>
+                            </div>
+                            <a href="#" target="_blank" class="custom-btn">
+                            <span>preview <i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+                            </a>
+                         </div>
+                         <!-- ITEM DETAILS ENDS -->
+                      </div>
+                      <!-- PROJECT ITEM ENDS -->
+                      <!-- PROJECT ITEM STARTS -->
+                      <div class="single-item swiper-slide">
+                         <!-- ITEM MAIN CONTENT STARTS -->
+                         <div class="main-content">
+                            <div class="swiper swiper-Project-item">
+                               <div class="swiper-wrapper">
+                                  <div class="swiper-slide">
+                                     <img src="assets/project/kala.png" title="img">
+                                  </div>
+                                  <div class="swiper-slide">
+                                     <img src="assets/project/project-3.jpg" title="img">
+                                  </div>
+                                  <div class="swiper-slide">
+                                     <img src="assets/project/project-1.jpg" title="img">
+                                  </div>
+                               </div>
+                               <div class="swiper-pagination"></div>
+                            </div>
+                         </div>
+                         <!-- ITEM MAIN CONTENT ENDS -->
+                         <!-- ITEM DETAILS STARTS -->
+                         <div class="details">
+                            <h4>KALA</h4>
+                            <div>
+                               <ul>
+                                  <li>
+                                     <span>
+                                     <i class="fa-regular fa-file-lines"></i> Project :
+                                     </span>
+                                     <span>Kinetic And Live Arts</span>
+                                  </li>
+                                  <li>
+                                     <span><i class="fa-regular fa-user"></i> Version :</span>
+                                     <span>1.6.2</span>
+                                  </li>
+                                  <li>
+                                     <span><i class="fa-regular fa-hourglass"></i> Last Updated :</span>
+                                     <span>3 April 23</span>
+                                  </li>
+                                  <li> 
+                                     <span><i class="fa-solid fa-code-branch"></i> Frameworks :</span>
+                                     <span>EDEN 52</span>
+                                  </li>
+                               </ul>
+                            </div>
+                            <a href="#" target="_blank" class="custom-btn">
+                            <span>preview <i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+                            </a>
+                         </div>
+                         <!-- ITEM DETAILS ENDS -->
+                      </div>
+                      <!-- PROJECT ITEM ENDS -->
+                      <!-- PROJECT ITEM STARTS -->
+                      <div class="single-item swiper-slide">
+                         <!-- ITEM MAIN CONTENT STARTS -->
+                         <div class="main-content">
+                            <a href="https://themeforest.net" target="_blank" class="external">
+                               <img class="img-fluid" src="assets/project/dubs.png" alt="DUBS project">
+                            </a>
+                         </div>
+                         <!-- ITEM MAIN CONTENT ENDS -->
+                         <!-- ITEM DETAILS STARTS -->
+                         <div class="details">
+                            <h4>DUBS</h4>
+                            <div>
+                               <ul>
+                                  <li>
+                                     <span>
+                                     <i class="fa-regular fa-file-lines"></i> Project :
+                                     </span>
+                                     <span>Dubbing Under Blazing Speed</span>
+                                  </li>
+                                  <li>
+                                     <span><i class="fa-regular fa-user"></i> Version :</span>
+                                     <span>3.2.0</span>
+                                  </li>
+                                  <li>
+                                     <span><i class="fa-regular fa-hourglass"></i> Last Updated :</span>
+                                     <span>2 April 23</span>
+                                  </li>
+                                  <li> 
+                                     <span><i class="fa-solid fa-code-branch"></i> Frameworks :</span>
+                                     <span>EDEN 49</span>
+                                  </li>
+                               </ul>
+                            </div>
+                            <a href="#" target="_blank" class="custom-btn">
+                            <span>preview <i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+                            </a>
+                         </div>
+                         <!-- ITEM DETAILS ENDS -->
+                      </div>
+                      <!-- PROJECT ITEM ENDS -->
+                   </div>
+                   <div class="nav-item next-item animated-btn"><span></span></div>
+                   <div class="nav-item prev-item animated-btn"><span></span></div>
+                </div>
+                <a class="view_all" href="products.html" ref="#">View All</a>
+                <img alt="" class="separator hide-mobile" src="assets/separator.png">
+             </section>
+             <!-- PROJECT SECTION ENDS -->
+
+               
+               <img alt="" class="separator-mobile-down hide-desktop z-1" src="assets/separator-mobile-down.png">
+               <!-- FACTS SECTION STARTS -->
+               <section class="facts">
+                  <div class="flex-column-mobile">
+                     <!-- SINGE FACT ITEM STARTS -->
+                     <div class="animated-layer fade-in-right-animation fadeInLeft wow" data-wow-offset="200">
+                        <div>
+                           <div>
+                              <h3>13</h3>
+                              <p>years of<span>experience</span></p>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- SINGE FACT ITEM ENDS -->
+                     <!-- SINGE FACT ITEM STARTS -->
+                     <div class="animated-layer fade-in-right-animation fadeInRight wow" data-wow-offset="200">
+                        <div>
+                           <div>
+                              <h3>67</h3>
+                              <p>completed<span>projects</span></p>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- SINGE FACT ITEM ENDS -->
+                     <!-- SINGE FACT ITEM STARTS -->
+                     <div class="animated-layer fade-in-right-animation fadeInLeft wow" data-wow-offset="200">
+                        <div>
+                           <div>
+                              <h3>56</h3>
+                              <p >Happy<span>customers</span></p>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- SINGE FACT ITEM ENDS -->
+                     <!-- SINGE FACT ITEM STARTS -->
+                     <div class="animated-layer fade-in-right-animation fadeInRight wow" data-wow-offset="200">
+                        <div>
+                           <div>
+                              <h3>13</h3>
+                              <p>awards<span>won</span></p>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- SINGE FACT ITEM ENDS -->
+                     <!-- SINGE FACT ITEM STARTS -->
+                     <div class="animated-layer fade-in-right-animation fadeInLeft wow" data-wow-offset="200">
+                        <div>
+                           <div>
+                              <h3>32</h3>
+                              <p>learned<span>frameworks</span></p>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- SINGE FACT ITEM ENDS -->
+                  </div>
+                  <img alt="" class="z-1 hide-mobile opposite-separator" src="assets/separator-opposite.png">
+                  
+               </section>
+               <!-- FACTS SECTION ENDS -->
+               <img alt="" class="separator-mobile-up hide-desktop z-1" src="assets/separator-mobile-up.png">
+               
+               <img alt="" class="separator-mobile-down hide-desktop z-1" src="assets/separator-mobile-down.png">
+               
+               
+              <!-- INFO HOLDER ENDS -->
+              <img alt="" class="separator-mobile-up hide-desktop z-1" src="assets/separator-mobile-up.png">
+              <!-- CONTACT SECTION STARTS -->
+              <section class="contact main-section flex-column-mobile" id="contact">
+                     <!-- TITLE STARTS -->
+                     <div class="custom-title">
+                        <!-- MAIN TITLE STARTS -->
+                        <h3>
+                           <span>
+                           <span class="animated-layer fade-in-left-animation fadeInUp wow">
+                           Get in touch
+                           </span>
+                           </span>
+                        </h3>
+                        <!-- MAIN TITLE ENDS -->
+                     </div>
+                     <!-- TITLE ENDS -->
+                  <!-- CONTACTS STARTS -->
+                  <div class="boxes">
+                     <div>
+                        <!-- CONTACT ITEM STARTS -->
+                        <div class="animated-layer fade-in-down-animation fadeInUp wow">
+                           <i class="fa fa-phone"></i>
+                           <p> 
+                              <span class="small-text">Phone</span>
+                              <p><a href="tel:+916114356118">+91 6114356118</a></p>
+                           </p>
+                        </div>
+                        <!-- CONTACT ITEM ENDS -->
+                        <!-- CONTACT ITEM STARTS -->
+                        
+                        <div class="animated-layer fade-in-up-animation fadeInUp wow">
+                           <i class="fa fa-location-dot"></i>
+                           <p> 
+                              <span class="small-text">Address</span>
+                              <p><a href="https://goo.gl/maps/1pYDJ3N41kmoHY9T9" target="_blank" rel="noopener noreferrer">Bengaluru, Bharat</a></p>
+                           </p>
+                        </div>
+                        <!-- CONTACT ITEM ENDS -->
+                     </div>
+                     <div>
+                        <!-- CONTACT ITEM STARTS -->
+                        <div class="animated-layer fade-in-down-animation fadeInUp wow">
+                           <i class="fa fa-envelope"></i>
+                           <p> 
+                              <span class="small-text">Email</span>
+                              <p><a href="mailto: contact@myeden.ai" target="_blank" rel="noopener noreferrer">contact@myeden.ai</a></p>
+                           </p>
+                        </div>
+                        <!-- CONTACT ITEM ENDS -->
+                        <!-- CONTACT ITEM STARTS -->
+                        <div class="animated-layer fade-in-up-animation fadeInUp wow">
+                           <i class="fa fa-share-nodes"></i>
+                           <span class="small-text">Follow Us</span>
+                           <ul class="social">
+                              <li>
+                                 <a href="#">
+                                 <i class="fa-brands fa-linkedin"></i>
+                                 </a>
+                              </li>
+                              <li>
+                                 <a href="#">
+                                 <i class="fa-brands fa-twitter"></i>
+                                 </a>
+                              </li>
+                              <li>
+                                 <a href="#">
+                                 <i class="fa-brands fa-instagram"></i>
+                                 </a>
+                              </li>
+                              <li>
+                                 <a href="#">
+                                 <i class="fa-brands fa-facebook"></i>
+                                 </a>
+                              </li>
+                           </ul>
+                        </div>
+                        <!-- CONTACT ITEM ENDS -->
+                     </div>
+                  </div>
+                  <!-- CONTACTS ENDS -->
+                  <img alt="" class="separator hide-mobile" src="assets/separator.png">
+               </section>
+               <!-- CONTACT SECTION ENDS -->
+               <img alt="" class="separator-mobile-down hide-desktop z-1" src="assets/separator-mobile-down.png">
+               
+               <img alt="" class="separator-mobile-up hide-desktop z-1" src="assets/separator-mobile-up.png">
+               <!-- BLOG SECTION STARTS -->
+               <section class="blog main-section flex-column-mobile" id="blog">
+                  <!-- TITLE STARTS -->
+                  <div class="custom-title">
+                     <!-- MAIN TITLE STARTS -->
+                     <h3>
+                        <span>
+                        <span class="animated-layer fade-in-left-animation fadeInUp wow">
+                        Latest Posts
+                        </span>
+                        </span>
+                     </h3>
+                     <!-- MAIN TITLE ENDS -->
+                  </div>
+                  <!-- TITLE ENDS -->
+                  <!-- LATEST POSTS STARTS -->
+                  <div class="latestposts flex-column-mobile">
+                     <!-- POST ITEM STARTS -->
+                     <div class="animated-layer fade-in-right-animation fadeInUp wow">
+                        <a href="blog-post.html">
+                           <span class="img-holder">
+                           <img src="assets/blog/blog-post-1.jpg" alt="">
+                           </span>
+                           <div class="content">
+                              <span class="category">design</span>
+                              <span class="title">
+                              How To Publish Content That Ranks On Google
+                              </span>
+                              <p>
+                                 ncididunt ut labore et dolore magna aliqua. Ut enim aminim veniam...
+                              </p>
+                              <div class="meta d-flex align-items-center">
+                                 <div class="d-flex align-items-center">
+                                    <i class="fa-regular fa-calendar"></i>
+                                    <span>9 Apr 2022</span>
+                                 </div>
+                                 <div class="d-flex align-items-center">
+                                    <i class="fa-regular fa-comments"></i>
+                                    <span>17 comments</span>
+                                 </div>
+                              </div>
+                           </div>
+                        </a>
+                     </div>
+                     <!-- POST ITEM ENDS -->
+                     <!-- POST ITEM STARTS -->
+                     <div class="animated-layer fade-in-right-animation fadeInUp wow">
+                        <a href="blog-post.html">
+                           <span class="img-holder">
+                           <img src="assets/blog/blog-post-2.jpg" alt="">
+                           </span>
+                           <div class="content">
+                              <span class="category">development</span>
+                              <span class="title">
+                              How Efficient Site Structure Can Boost SEO
+                              </span>
+                              <p>
+                                 ncididunt ut labore et dolore magna aliqua. Ut enim aminim veniam...
+                              </p>
+                              <div class="meta d-flex align-items-center">
+                                 <div class="d-flex align-items-center">
+                                    <i class="fa-regular fa-calendar"></i>
+                                    <span>21 Feb 2022</span>
+                                 </div>
+                                 <div class="d-flex align-items-center">
+                                    <i class="fa-regular fa-comments"></i>
+                                    <span>34 comments</span>
+                                 </div>
+                              </div>
+                           </div>
+                        </a>
+                     </div>
+                     <!-- POST ITEM ENDS -->
+                     <!-- POST ITEM STARTS -->
+                     <div class="animated-layer fade-in-right-animation fadeInUp wow">
+                        <a href="blog-post.html">
+                           <span class="img-holder">
+                           <img src="assets/blog/blog-post-3.jpg" alt="">
+                           </span>
+                           <div class="content">
+                              <span class="category">essentials</span>
+                              <span class="title">
+                              Change Management for Customer Success
+                              </span>
+                              <p>
+                                 ncididunt ut labore et dolore magna aliqua. Ut enim aminim veniam...
+                              </p>
+                              <div class="meta d-flex align-items-center">
+                                 <div class="d-flex align-items-center">
+                                    <i class="fa-regular fa-calendar"></i>
+                                    <span>1 Jan 2022</span>
+                                 </div>
+                                 <div class="d-flex align-items-center">
+                                    <i class="fa-regular fa-comments"></i>
+                                    <span>10 comments</span>
+                                 </div>
+                              </div>
+                           </div>
+                        </a>
+                     </div>
+                     <!-- POST ITEM ENDS -->
+                  </div>
+                  <!-- LATEST POSTS ENDS -->
+               </section>
+               
+               <!-- BLOG SECTION ENDS -->
+               <img alt="" class="hide-desktop z-1" src="assets/separator-copyright-mobile.png">
+               <!-- COPYRIGHT SECTION STARTS -->
+               
+               <section class="copyright">
+                  <img alt="" class="z-1 hide-mobile" src="assets/separator-copyright.png">
+                  <div class="text-left" style="text-align: left;">
+                    <h6> Company </h6>
+                    <ul class="flex-column mb-3">
+                      <li><a style="text-decoration: none" href="about.html"> About Us</a></li>
+                      <li><a style="text-decoration: none" href="blog.html"> Blog</a></li>
+                      <li><a style="text-decoration: none" href="careers.html"> Careers </a></li>
+                      <li><a style="text-decoration: none" href="pricing.html"> Pricing</a></li>
+                    </ul>
+                     <h6> Quick Links </h6>
+                    <ul class="flex-column mb-3">
+                      <li><a style="text-decoration: none" href="policies.html"> Policies</a></li>
+                      <li><a style="text-decoration: none" href="privacy.html"> Privacy Policy</a></li>
+                      <li><a style="text-decoration: none" href="terms.html"> Terms of Use</a></li>
+                      <li><a style="text-decoration: none" href="refund.html"> Refund Policy </a></li>
+                    </ul>
+                     <span>&#169; 2023 My Eden AI</span>
+                     <ul>
+                        <li>
+                           <a href="#" target="_blank" rel="noopener noreferrer">
+                           <i class="fa-brands fa-github"></i>
+                           </a>
+                        </li>
+                        <li>
+                           <a href="https://twitter.com/myedenai" target="_blank" rel="noopener noreferrer">
+                           <i class="fa-brands fa-twitter"></i>
+                           </a>
+                        </li>
+                        <li>
+                           <a href="https://www.linkedin.com/company/myedenai/" target="_blank" rel="noopener noreferrer">
+                           <i class="fa-brands fa-linkedin"></i>
+                           </a>
+                        </li>
+                        <li>
+                           <a href="https://www.facebook.com/myedenai" target="_blank" rel="noopener noreferrer">
+                           <i class="fa-brands fa-facebook"></i>
+                           </a>
+                        </li>
+                        <li>
+                           <a href="https://www.instagram.com/myedenai/" target="_blank" rel="noopener noreferrer">
+                           <i class="fa-brands fa-instagram"></i>
+                           </a>
+                        </li>
+                        <li>
+                           <a href="https://www.youtube.com/@myedenai" target="_blank" rel="noopener noreferrer">
+                           <i class="fa-brands fa-youtube"></i>
+                           </a>
+                        </li>
+                     </ul>
+                  </div>
+                  
+               </section>
+               <!-- COPYRIGHT SECTION ENDS -->
+            </main>
+         </div>
+         <!-- SCROLL BAR STARTS -->
+         <div class="scroll-progress hide-mobile">
+            <div>
+               <div></div>
+            </div>
+         </div>
+         <!-- SCROLL BAR ENDS -->
+      </div>
+      <!-- WRAPPER ENDS -->
+      <script src="js/jquery-3.6.3.min.js"></script>
+      <script src="js/jquery.mCustomScrollbar.min.js"></script>
+      <script src="js/swiper-bundle.min.js"></script>
+      <script src="js/wow.min.js"></script>
+      <script src="js/custom.js"></script>
+
+      <!-- Style Switcher - Demo Only -->
+      <script src="js/styleswitcher.js"></script>
+   </body>
+</html>

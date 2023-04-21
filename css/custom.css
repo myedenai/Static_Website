@@ -1,0 +1,94 @@
+.submenu{
+  position:absolute;
+  width:150px;
+  margin-left:00px;
+}
+.submenu li{
+  background:#34495e;
+  position:relative;
+  overflow:hidden;
+  margin: 0 !important;
+}
+.submenu > li > a {
+  color: #fff;
+  font-size: 12px;
+  padding: 1em 2em;
+  padding: 5px 15px;
+  display: block;
+  text-decoration: none;
+}
+.submenu > li::after {
+  content: '';
+  position: absolute;
+  top: -125%;
+  height: 100%;
+  width: 100%;
+}
+
+.submenu > li:hover{
+  background-color: aliceblue;
+}
+
+.submenu > li:hover a{
+  color: #000;
+}
+
+.submenu,.submenu li{
+  opacity:0;
+  visibility: hidden;
+}
+.submenu li{
+  transition:all 0.2s ease-out;
+}
+.menu ul > li:hover .submenu,
+.menu ul > li:hover .submenu li{
+  opacity:1;
+  visibility:visible;
+}
+
+
+.view_all{
+  /* margin-left: 66px; */
+  display: block;
+  background: #027bff;
+  transform: translateX(0);
+  border-radius: 100px;
+  color: white;
+  width: 70px;
+  height: 70px;
+  text-align: center;
+  line-height: 70px;
+  text-decoration: none;
+}
+
+.products .single-item{
+  margin-left: 100px; 
+}
+
+@media (max-width: 1024px){
+  .submenu{
+    position: relative;
+  }
+
+  .products{
+    padding: 40px;
+  }
+
+  .products .single-item{
+    margin-left: 0; 
+    margin-top: 40px;
+    opacity: 1 !important;
+  }
+
+  .submenu, .submenu li {
+    opacity: 1;
+    margin-bottom: 30px;
+    width: 90%;
+    visibility: visible;
+  }
+
+  #menu .submenu li a{
+    font-size: 12px;
+    padding: 5px;
+  }
+}
