@@ -1,405 +1,727 @@
-
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-   <head>
-      <title>MyEden AI</title>
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <!-- Page Favicon -->
-      <link rel="icon" type="image/x-icon" href="assets\favicon.png">
-      <!-- Template Google Fonts -->
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link defer="true" href="https://fonts.googleapis.com/css2?family=Livvic:wght@100;200;300;400;500;600;700&family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet">
-      <!-- Template CSS Files -->
-      <link rel="stylesheet" href="css/devicon.min.css">
-      <link rel="stylesheet" href="css/all.min.css">
-      <link rel="stylesheet" href="css/bootstrap.min.css">
-      <link rel="stylesheet" href="css/swiper-bundle.min.css">
-      <link rel="stylesheet" href="css/animate.min.css">
-      <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
-      <link rel="stylesheet" href="css/style.css">
-      <link rel="stylesheet" href="css/custom.css">
-      <!-- CSS Skin File -->
-      <link rel="stylesheet" href="css/skins/blue.css">
-      <!-- Live Style Switcher - demo only -->
-      <link rel="alternate stylesheet" type="text/css" title="yellow" href="css/skins/yellow.css">
-      <link rel="alternate stylesheet" type="text/css" title="blue" href="css/skins/blue.css">
-      <link rel="alternate stylesheet" type="text/css" title="green" href="css/skins/green.css">
-      <link rel="alternate stylesheet" type="text/css" title="red" href="css/skins/red.css">
-      <link rel="alternate stylesheet" type="text/css" title="yellowgreen" href="css/skins/yellowgreen.css">
-      <link rel="alternate stylesheet" type="text/css" title="orange" href="css/skins/orange.css">
-      <link rel="alternate stylesheet" type="text/css" title="pink" href="css/skins/pink.css">
-      <link rel="alternate stylesheet" type="text/css" title="goldenrod" href="css/skins/goldenrod.css">
-      <link rel="alternate stylesheet" type="text/css" title="turquoise" href="css/skins/turquoise.css">
-      <link rel="stylesheet" type="text/css" href="css/styleswitcher.css">
-   </head>
-   <body>
-      <!-- PRELOADER STARTS -->
-      <div id="preloader">
-         <div class="square"></div>
-      </div>
-      <!-- PRELOADER ENDS -->
-      <!-- WRAPPER STARTS -->
-      <div class="page-content">
-         <!-- HEADER STARTS -->
-         <header>
-          <!-- Desktop Menu Starts -->
-          <div class="header-inner hide-mobile">
-             <!-- MENU STARTS -->
-             <a href="index.html"><img src="assets\edenlogo\eden.png" id="home-link" width="200"></a>
-             <div class="menu">
-                <nav>
-                   <ul>
-                      <li class="position-relative">
-                        <span id="">Research</span>
-                        <ul class="submenu mt-2 d-block">
-                          <li><a href="#"> Language Training</a></li>
-                          <li><a href="#"> Data Moderation</a></li>
-                          <li><a href="#">Blog</a></li>
-                        </ul>
-                      </li>
-                      <li class="position-relative"><span id="">Product</span>
-                        <ul class="submenu mt-2 d-block">
-                          <li><a href="#">Lekh</a></li>
-                          <li><a href="#">Dubs</a></li>
-                          <li><a href="products.html">View All</a></li>
-                          <li><a href="#">Pricing</a></li>
-                        </ul>
-                      </li>
-                      <li class="position-relative"><span id="">Developers</span>
-                        <ul class="submenu mt-2 d-block">
-                          <li><a href="#">API References</a></li>
-                        </ul>
-                      </li>
-                      <li class="position-relative"><span id="">Company</span>
-                        <ul class="submenu mt-2 d-block">
-                          <li><a href="about.html">About Us</a></li>
-                          <li><a href="#">Careers</a></li>
-                          <li><a href="">Contact</a></li>
-                        </ul>
-                      </li>
-                   </ul>
-                </nav>
-             </div>
-             <!-- MENU ENDS -->
-             <!-- EMAIL STARTS -->
-             <!-- <div class="mail">
+  <head>
+    <title>Pruvacy - MyEden AI</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Page Favicon -->
+    <link rel="icon" type="image/x-icon" href="assets\favicon.png" />
+    <!-- Template Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      defer="true"
+      href="https://fonts.googleapis.com/css2?family=Livvic:wght@100;200;300;400;500;600;700&family=Oswald:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Template CSS Files -->
+    <link rel="stylesheet" href="css/devicon.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/animate.min.css" />
+    <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/custom.css" />
+    <!-- CSS Skin File -->
+    <link rel="stylesheet" href="css/skins/blue.css" />
+    <!-- Live Style Switcher - demo only -->
+    <link
+      rel="alternate stylesheet"
+      type="text/css"
+      title="yellow"
+      href="css/skins/yellow.css"
+    />
+    <link
+      rel="alternate stylesheet"
+      type="text/css"
+      title="blue"
+      href="css/skins/blue.css"
+    />
+    <link
+      rel="alternate stylesheet"
+      type="text/css"
+      title="green"
+      href="css/skins/green.css"
+    />
+    <link
+      rel="alternate stylesheet"
+      type="text/css"
+      title="red"
+      href="css/skins/red.css"
+    />
+    <link
+      rel="alternate stylesheet"
+      type="text/css"
+      title="yellowgreen"
+      href="css/skins/yellowgreen.css"
+    />
+    <link
+      rel="alternate stylesheet"
+      type="text/css"
+      title="orange"
+      href="css/skins/orange.css"
+    />
+    <link
+      rel="alternate stylesheet"
+      type="text/css"
+      title="pink"
+      href="css/skins/pink.css"
+    />
+    <link
+      rel="alternate stylesheet"
+      type="text/css"
+      title="goldenrod"
+      href="css/skins/goldenrod.css"
+    />
+    <link
+      rel="alternate stylesheet"
+      type="text/css"
+      title="turquoise"
+      href="css/skins/turquoise.css"
+    />
+    <link rel="stylesheet" type="text/css" href="css/styleswitcher.css" />
+  </head>
+  <body>
+    <!-- PRELOADER STARTS -->
+    <div id="preloader">
+      <div class="square"></div>
+    </div>
+    <!-- PRELOADER ENDS -->
+    <!-- WRAPPER STARTS -->
+    <div class="page-content">
+      <!-- HEADER STARTS -->
+      <header>
+        <!-- Desktop Menu Starts -->
+        <div class="header-inner hide-mobile">
+          <!-- MENU STARTS -->
+          <a href="index.html"
+            ><img src="assets\edenlogo\eden.png" id="home-link" width="200"
+          /></a>
+          <div class="menu">
+            <nav>
+              <ul>
+                <li class="position-relative">
+                  <span id="">Research</span>
+                  <ul class="submenu mt-2 d-block">
+                    <li><a href="#"> Language Training</a></li>
+                    <li><a href="#"> Data Moderation</a></li>
+                    <li><a href="#">Blog</a></li>
+                  </ul>
+                </li>
+                <li class="position-relative">
+                  <span id="">Product</span>
+                  <ul class="submenu mt-2 d-block">
+                    <li><a href="#">Lekh</a></li>
+                    <li><a href="#">Dubs</a></li>
+                    <li><a href="products.html">View All</a></li>
+                    <li><a href="#">Pricing</a></li>
+                  </ul>
+                </li>
+                <li class="position-relative">
+                  <span id="">Developers</span>
+                  <ul class="submenu mt-2 d-block">
+                    <li><a href="#">API References</a></li>
+                  </ul>
+                </li>
+                <li class="position-relative">
+                  <span id="">Company</span>
+                  <ul class="submenu mt-2 d-block">
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="">Contact</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <!-- MENU ENDS -->
+          <!-- EMAIL STARTS -->
+          <!-- <div class="mail">
                 <p>
                    Email : 
                    <span>contact@myeden.ai</span>
                 </p>
              </div> -->
-             <!-- EMAIL ENDS -->
+          <!-- EMAIL ENDS -->
+        </div>
+        <!-- Desktop Menu Ends -->
+        <!-- Mobile Menu Starts -->
+        <nav class="mobile-menu">
+          <div id="menuToggle">
+            <input type="checkbox" id="checkboxmenu" />
+            <span></span>
+            <span></span>
+            <span></span>
+            <ul class="list-unstyled" id="menu">
+              <li class="position-relative">
+                <span id="">Research</span>
+                <ul class="submenu mt-2 d-block">
+                  <li><a href="#"> Language Training</a></li>
+                  <li><a href="#"> Data Moderation</a></li>
+                  <li><a href="#">Blog</a></li>
+                </ul>
+              </li>
+              <li class="position-relative">
+                <span id="">Product</span>
+                <ul class="submenu mt-2 d-block">
+                  <li><a href="#">Lekh</a></li>
+                  <li><a href="#">Dubs</a></li>
+                  <li><a href="pricing.html">Pricing</a></li>
+                </ul>
+              </li>
+              <li class="position-relative">
+                <span id="">Developers</span>
+                <ul class="submenu mt-2 d-block">
+                  <li><a href="#">API References</a></li>
+                </ul>
+              </li>
+              <li class="position-relative">
+                <span id="">Company</span>
+                <ul class="submenu mt-2 d-block">
+                  <li><a href="about.html">About Us</a></li>
+                  <li><a href="#">Careers</a></li>
+                  <li><a href="#">Contact</a></li>
+                </ul>
+              </li>
+            </ul>
           </div>
-          <!-- Desktop Menu Ends -->
-          <!-- Mobile Menu Starts -->
-          <nav class="mobile-menu">
-            <div id="menuToggle">
-               <input type="checkbox" id="checkboxmenu">
-               <span></span>
-               <span></span>
-               <span></span>
-               <ul class="list-unstyled" id="menu">
-                 <li class="position-relative">
-                   <span id="">Research</span>
-                   <ul class="submenu mt-2 d-block">
-                     <li><a href="#"> Language Training</a></li>
-                     <li><a href="#"> Data Moderation</a></li>
-                     <li><a href="#">Blog</a></li>
-                   </ul>
-                 </li>
-                 <li class="position-relative"><span id="">Product</span>
-                   <ul class="submenu mt-2 d-block">
-                     <li><a href="#">Lekh</a></li>
-                     <li><a href="#">Dubs</a></li>
-                     <li><a href="pricing.html">Pricing</a></li>
-                   </ul>
-                 </li>
-                 <li class="position-relative"><span id="">Developers</span>
-                   <ul class="submenu mt-2 d-block">
-                     <li><a href="#">API References</a></li>
-                   </ul>
-                 </li>
-                 <li class="position-relative"><span id="">Company</span>
-                   <ul class="submenu mt-2 d-block">
-                     <li><a href="about.html">About Us</a></li>
-                     <li><a href="#">Careers</a></li>
-                     <li><a href="#">Contact</a></li>
-                   </ul>
-                 </li>
-               </ul>
-            </div>
-         </nav>
-          <!-- Mobile Menu Ends -->
-        </header>
-         <!-- HEADER ENDS -->
-         <div id="wrapper">
-          <main class="flex-column-mobile">
-            <!-- HOME SECTION STARTS -->
-            <section class="home image" id="home">
-              <div>
-                 <div class="position-relative">
-                    <h1>
-                       <span>
-                          <span class="animated-layer">
-                             Privacy<span>.</span>
-                          </span>
-                       </span>
-                       <span>
-                          <span class="animated-layer">
-                          Policy
-                          </span>
-                       </span>
-                    </h1>
-                 </div>
+        </nav>
+        <!-- Mobile Menu Ends -->
+      </header>
+      <!-- HEADER ENDS -->
+      <div id="">
+        <main class="flex-column-mobile">
+          <!-- HOME SECTION STARTS -->
+          <section class="home image" id="home">
+            <div>
+              <div class="position-relative">
+                <h1>
+                  <span>
+                    <span class="animated-layer"> Privacy<span>.</span> </span>
+                  </span>
+                  <span>
+                    <span class="animated-layer"> Policy </span>
+                  </span>
+                </h1>
               </div>
-              <!-- CALL TO ACTION STARTS -->
-              <a class="text-white animated-layer animated-btn cta" href="#portfolio" id="cta">
-                 <span>
-                 </span>
-                </a>
-              <!-- CALL TO ACTION ENDS -->
-           </section>
-           <!-- HOME SECTION ENDS --> 
+            </div>
+            <!-- CALL TO ACTION STARTS -->
+            <a
+              class="text-white animated-layer animated-btn cta"
+              href="#doc"
+              id="cta"
+            >
+              <span> </span>
+            </a>
+            <!-- CALL TO ACTION ENDS -->
+          </section>
+          <!-- HOME SECTION ENDS -->
 
-             <!-- PRIVACY SECTION STARTS -->
-             <section class="portfolio main-section w-100 flex-column-mobile" id="portfolio">
-              <!-- TITLE STARTS -->
-              <div class="custom-title" style="transform: none; writing-mode: vertical-lr;">
-                <!-- TITLE ENDS -->
-                <div class="">
-                  <div class="single-item mt-4 mb-5 swiper-slide" style="overflow-y: scroll; height: 85vh;">
-                      <div class="mt-5" style="text-align: left; opacity: 1; writing-mode: horizontal-tb; width: 80%;"> 
-                  <br>Privacy Policy</br>
+          <!-- PRIVACY SECTION STARTS -->
+          <section
+            class="portfolio main-section w-100 flex-column-mobile"
+            id="doc"
+          >
+            <!-- TITLE STARTS -->
+            <div
+              class="custom-title"
+              style="transform: none; writing-mode: vertical-lr"
+            >
+              <!-- TITLE ENDS -->
+              <div class="">
+                <div
+                  class="single-item mt-4 mb-5"
+                  style="overflow-y: scroll; height: 85vh"
+                >
+                  <div
+                    class="mt-5"
+                    style="
+                      text-align: left;
+                      opacity: 1;
+                      writing-mode: horizontal-tb;
+                      width: 80%;
+                    "
+                  >
+                    <br />Privacy Policy
 
-                  <br>We at My-Eden Artificial Intelligence Private Limited (together with our affiliates, “My-Eden”, “we”, “our” or “us”) respect your privacy and are strongly committed to keeping secure any information we obtain from you or about you. This Privacy Policy describes our practices with respect to Personal Information we collect from or about you when you access My-Eden and its affiliates’ websites (collectively, the “Site”), or use My-Eden and its affiliates’ products and services, including application programming interfaces, associated software, tools, developer services, data and documentation (collectively, the “Services”).</br>
-                                            
-                  <br>1.Personal information we collect</br>
-                  <br>We collect information that alone or in combination with other information in our possession could be used to identify you (“Personal Information”) as follows:</br>
-                      
-                  <br>Personal Information You Provide: We may collect Personal Information if you create an account to use our Services or communicate with us as follows.</br>
-                      
-                  <br>Communication Information: If you communicate with us, we may collect your name, contact information, and the contents of any messages you send (“Communication Information”).</br>
-                      
-                  <br>Personal Information We Collect Through Our Social Media Pages: We have pages on social media sites like Instagram, Facebook, Medium, Twitter, YouTube and LinkedIn (“Social Media Pages”). When you interact with our Social Media Pages, we will collect Personal Information that you elect to provide to us, such as your contact details (“Social Information”). In addition, the companies that host our Social Media Pages may provide us with aggregate information and analytics regarding the use of our Social Media Pages.</br>
-                      
-                  <br>Personal Information We Receive Automatically From Your Use of the Services: When you visit, use, and interact with the Services, we may receive certain information about your visit, use, or interactions (“Technical Information”), including the following:</br>
-                      
-                  <br>Log Data: Information that your browser automatically sends whenever you visit the Site (“log data”). Log data includes your Internet Protocol address, browser type and settings, the date and time of your request, and how you interacted with the Site.</br>
-                      
-                  <br>Usage Data: We may automatically collect information about your use of the Services, such as the types of content that you view or engage with, the features you use and the actions you take, as well as your time zone, country, the dates and times of access, user agent and version, type of computer or mobile device, computer connection, IP address, and the like.</br>
-                      
-                  <br>Device Information: Includes name of the device, operating system, and browser you are using. Information collected may depend on the type of device you use and its settings.</br>
-                      
-                  <br>Cookies: We use cookies to operate and administer our Site and Services, and improve your experience on it. A “cookie” is a piece of information sent to your browser by a website you visit. You can set your browser to accept all cookies, to reject all cookies, or to notify you whenever a cookie is offered so that you can decide each time whether to accept it. However, refusing a cookie may in some cases preclude you from using, or negatively affect the display or function of, a website or certain areas or features of a website. For more details on cookies please visit All About Cookies.</br>
-                      
-                  <br>Analytics: We may use a variety of online analytics products that use cookies to help us analyse how users use the Site and Services and enhance your experience when you use the Site and Services.</br>
-                      
-                  <br>Online Tracking and Do Not Track Signals: We and our third party service providers may use cookies or other tracking technologies to collect information about your browsing activities over time and across different websites following your use of the Site. Our Site currently does not respond to “Do Not Track” (“DNT”) signals and operates as described in this Privacy Policy whether or not a DNT signal is received.</br>
-                      
-                      
+                    <br />We at My-Eden Artificial Intelligence Private Limited
+                    (together with our affiliates, “My-Eden”, “we”, “our” or
+                    “us”) respect your privacy and are strongly committed to
+                    keeping secure any information we obtain from you or about
+                    you. This Privacy Policy describes our practices with
+                    respect to Personal Information we collect from or about you
+                    when you access My-Eden and its affiliates websites
+                    (collectively, the “Site”), or use My-Eden and its
+                    affiliates products and services, including application
+                    programming interfaces, associated software, tools,
+                    developer services, data and documentation (collectively,
+                    the “Services”).
 
-                  <br>2.How we use personal information</br>
-                  <br>We may use Personal Information for the following purposes:</br>
-                      
-                  <br>To provide, administer, maintain, improve and/or analyse the Services;</br>
-                      
-                  <br>To conduct research, which may remain internal or may be shared with third parties, published or made generally available;</br>
-                      
-                  <br>To communicate with you;</br>
-                      
-                  <br>To develop new programs and services;</br>
-                      
-                  <br>To prevent fraud, criminal activity, or misuses of our Services, and to ensure the security of our IT systems, architecture, and networks; and</br>
-                      
-                  <br>To comply with legal obligations and legal process and to protect our rights, privacy, safety, or property, and/or that of our affiliates, you, or other third parties.</br>
-                      
-                  <br>Aggregated Information. We may aggregate Personal Information and use the aggregated information to analyse the effectiveness of our Services, to improve and add features to our Services, to conduct research (which may remain internal or may be shared with third parties, published or made generally available) and for other similar purposes. In addition, from time to time, we may analyse the general behaviour and characteristics of users of our Services and share aggregated information like general user statistics with third parties, publish such aggregated information or make such aggregated information generally available. We may collect aggregated information through the Services, through cookies, and through other means described in this Privacy Policy.</br>
-                      
-                        
-                      
-                  <br>3.Sharing and disclosure of personal information</br>
-                  <br>In certain circumstances we may share your Personal Information with third parties without further notice to you, unless required by the law, including without limitation in the situations below:</br>
-                      
-                  <br>Vendors and Service Providers: To assist us in meeting business operations needs and to perform certain services and functions, we may share Personal Information with vendors and service providers, including providers of hosting services, cloud services, and other information technology services providers, event management services, email communication software and email newsletter services, advertising and marketing services, and web analytics services. Pursuant to our instructions, these parties will access, process, or store Personal Information in the course of performing their duties to us.</br>
-                      
-                  <br>Business Transfers: If we are involved in strategic transactions, reorganisation, bankruptcy, receivership, or transition of service to another provider (collectively a “Transaction”), your Personal Information and other information may be shared in the diligence process with counterparties and others assisting with the Transaction and transferred to a successor or affiliate as part of that Transaction along with other assets.</br>
-                      
-                  <br>Legal Requirements: If required to do so by law or in the good faith belief that such action is necessary to (i) comply with a legal obligation, including to meet national security or law enforcement requirements, (ii) protect and defend our rights or property, (iii) prevent fraud, (iv) act in urgent circumstances to protect the personal safety of users of the Services, or the public, or (v) protect against legal liability.</br>
-                      
-                  <br>Affiliates: We may share Personal Information with our affiliates, meaning an entity that controls, is controlled by, or is under common control with My-Eden. Our affiliates may use the Personal Information we share in a manner consistent with this Privacy Policy.</br>
-                      
-                  <br>Other Users: certain actions you take may be visible to other users of the Service.</br>
-                      
-                        
-                  <br>4.How to contact us; updating your information</br>
-                  <br>Please contact us at admin@myeden.ai if you need to change or correct your Personal Information, or if you have any questions or concerns not already addressed in this Privacy Policy.</br>
-                      
-                        
-                  <br>5.Privacy rights</br>
-                  <br>The following disclosures are intended to provide additional information about</br>
-                      
-                  <br>(1) the categories of Personal Information we collect (as defined above),</br>
-                      
-                  <br>(2) the source of the Personal Information,</br>
-                      
-                  <br>(3) how we use each category of Personal Information, and</br>
-                      
-                  <br>(4) how we disclose Personal Information. These disclosures do not limit our ability to use or disclose information as described above.</br>
-                      
-                  <br>Category of Personal Information</br>
-                      
-                  <br>Sources of Personal Information</br>
-                      
-                  <br>Use of Personal Information</br>
-                      
-                  <br>Disclosure of Personal Information</br>
-                      
-                  <br>Social Information</br>
-                      
-                  <br>We may collect Social Information from you when you interact with our Social Media Pages.</br>
-                      
-                  <br>We may use Social Information to perform analytics and to communicate with you.</br>
-                      
-                  <br>We may disclose Social Information to our affiliates.</br>
-                      
-                  <br>Communication Information</br>
-                      
-                  <br>We collect Communication Information directly from you.</br>
-                      
-                  <br>We use Communication Information for providing our Services and responding to you.</br>
-                      
-                  <br>We disclose Communication Information to our affiliates and communication services providers.</br>
-                      
-                  <br>Technical Information</br>
-                      
-                  <br>We collect Technical Information from you.</br>
-                      
-                  <br>We use Technical Information for analytics and in some cases, for moderation and prevention of fraud and malicious activity by users of our Services.</br>
-                      
-                  <br>We disclose Technical Information to our affiliates and analytics provider(s).</br>
-                      
-                  <br>We do not and will not sell your Personal Information.</br>
-                      
-                  <br>Verification: in order to protect your Personal Information from unauthorised access or deletion, we may require you to verify your credentials before you can submit a request to know or delete Personal Information. If you do not have an account with us, or if we suspect fraudulent or malicious activity, we may ask you to provide additional Personal Information and proof of residency for verification. If we cannot verify your identity, we will not provide or delete your Personal Information.</br>
-                      
-                  <br>Authorised Agents: you may submit a request to know or a request to delete your Personal Information through an authorised agent. If you do so, the agent must present signed written permission to act on your behalf and you may also be required to independently verify your identity and submit proof of your residency with us.</br>
-                      
-                        
-                      
-                  <br>6.Children</br>
-                  <br>Our Service is not directed to children who are under the age of 13. My-Eden does not knowingly collect Personal Information from children under the age of 13. If you have reason to believe that a child under the age of 18 has provided Personal Information to My-Eden through the Service please email us at admin@myeden.ai and we will endeavour to delete that information from our databases.</br>
-                      
-                        
-                      
-                  <br>7.Links to other websites</br>
-                  <br>The Service may contain links to other websites not operated or controlled by My-Eden, including social media services (“Third Party Sites”). The information that you share with Third Party Sites will be governed by the specific privacy policies and terms of service of the Third Party Sites and not by this Privacy Policy. By providing these links we do not imply that we endorse or have reviewed these sites. Please contact the Third Party Sites directly for information on their privacy practices and policies.</br>
-                      
-                        
-                      
-                  <br>8.Security</br>
-                  <br>You use the Service at your own risk. We implement commercially reasonable technical, administrative, and organisational measures to protect Personal Information both online and offline from loss, misuse, and unauthorised access, disclosure, alteration, or destruction. However, no Internet or e-mail transmission is ever fully secure or error free. In particular, e-mail sent to or from us may not be secure. Therefore, you should take special care in deciding what information you send to us via the Service or e-mail. In addition, we are not responsible for circumvention of any privacy settings or security measures contained on the Service, or third party websites.</br>
-                      
-                        
-                      
-                  <br>9.International users</br>
-                  <br>By using our Service, you understand and acknowledge that your Personal Information will be transferred from your location to our facilities and servers in India.</br>
-                      
-                        
-                      
-                  <br>10.Your choices</br>
-                  <br>If you choose not to provide Personal Information that is needed to use some features of our Service, you may be unable to use those features.</br>
-                      
-                        
-                      
-                  <br>11.Changes to the privacy policy</br>
-                  <br>We may change this Privacy Policy at any time. When we do we will post an updated version on this page, unless another type of notice is required by applicable law. By continuing to use our Service or providing us with Personal Information after we have posted an updated Privacy Policy, or notified you by other means, you consent to the revised Privacy Policy.</br>
-                      </div>
+                    <br />1.Personal information we collect <br />We collect
+                    information that alone or in combination with other
+                    information in our possession could be used to identify you
+                    (“Personal Information”) as follows:
+
+                    <br />Personal Information You Provide: We may collect
+                    Personal Information if you create an account to use our
+                    Services or communicate with us as follows.
+
+                    <br />Communication Information: If you communicate with us,
+                    we may collect your name, contact information, and the
+                    contents of any messages you send (“Communication
+                    Information”).
+
+                    <br />Personal Information We Collect Through Our Social
+                    Media Pages: We have pages on social media sites like
+                    Instagram, Facebook, Medium, Twitter, YouTube and LinkedIn
+                    (“Social Media Pages”). When you interact with our Social
+                    Media Pages, we will collect Personal Information that you
+                    elect to provide to us, such as your contact details
+                    (“Social Information”). In addition, the companies that host
+                    our Social Media Pages may provide us with aggregate
+                    information and analytics regarding the use of our Social
+                    Media Pages.
+
+                    <br />Personal Information We Receive Automatically From
+                    Your Use of the Services: When you visit, use, and interact
+                    with the Services, we may receive certain information about
+                    your visit, use, or interactions (“Technical Information”),
+                    including the following:
+
+                    <br />Log Data: Information that your browser automatically
+                    sends whenever you visit the Site (“log data”). Log data
+                    includes your Internet Protocol address, browser type and
+                    settings, the date and time of your request, and how you
+                    interacted with the Site.
+
+                    <br />Usage Data: We may automatically collect information
+                    about your use of the Services, such as the types of content
+                    that you view or engage with, the features you use and the
+                    actions you take, as well as your time zone, country, the
+                    dates and times of access, user agent and version, type of
+                    computer or mobile device, computer connection, IP address,
+                    and the like.
+
+                    <br />Device Information: Includes name of the device,
+                    operating system, and browser you are using. Information
+                    collected may depend on the type of device you use and its
+                    settings.
+
+                    <br />Cookies: We use cookies to operate and administer our
+                    Site and Services, and improve your experience on it. A
+                    “cookie” is a piece of information sent to your browser by a
+                    website you visit. You can set your browser to accept all
+                    cookies, to reject all cookies, or to notify you whenever a
+                    cookie is offered so that you can decide each time whether
+                    to accept it. However, refusing a cookie may in some cases
+                    preclude you from using, or negatively affect the display or
+                    function of, a website or certain areas or features of a
+                    website. For more details on cookies please visit All About
+                    Cookies.
+
+                    <br />Analytics: We may use a variety of online analytics
+                    products that use cookies to help us analyse how users use
+                    the Site and Services and enhance your experience when you
+                    use the Site and Services.
+
+                    <br />Online Tracking and Do Not Track Signals: We and our
+                    third party service providers may use cookies or other
+                    tracking technologies to collect information about your
+                    browsing activities over time and across different websites
+                    following your use of the Site. Our Site currently does not
+                    respond to “Do Not Track” (“DNT”) signals and operates as
+                    described in this Privacy Policy whether or not a DNT signal
+                    is received.
+
+                    <br />2.How we use personal information <br />We may use
+                    Personal Information for the following purposes:
+
+                    <br />To provide, administer, maintain, improve and/or
+                    analyse the Services;
+
+                    <br />To conduct research, which may remain internal or may
+                    be shared with third parties, published or made generally
+                    available;
+
+                    <br />To communicate with you;
+
+                    <br />To develop new programs and services;
+
+                    <br />To prevent fraud, criminal activity, or misuses of our
+                    Services, and to ensure the security of our IT systems,
+                    architecture, and networks; and
+
+                    <br />To comply with legal obligations and legal process and
+                    to protect our rights, privacy, safety, or property, and/or
+                    that of our affiliates, you, or other third parties.
+
+                    <br />Aggregated Information. We may aggregate Personal
+                    Information and use the aggregated information to analyse
+                    the effectiveness of our Services, to improve and add
+                    features to our Services, to conduct research (which may
+                    remain internal or may be shared with third parties,
+                    published or made generally available) and for other similar
+                    purposes. In addition, from time to time, we may analyse the
+                    general behaviour and characteristics of users of our
+                    Services and share aggregated information like general user
+                    statistics with third parties, publish such aggregated
+                    information or make such aggregated information generally
+                    available. We may collect aggregated information through the
+                    Services, through cookies, and through other means described
+                    in this Privacy Policy.
+
+                    <br />3.Sharing and disclosure of personal information
+                    <br />In certain circumstances we may share your Personal
+                    Information with third parties without further notice to
+                    you, unless required by the law, including without
+                    limitation in the situations below:
+
+                    <br />Vendors and Service Providers: To assist us in meeting
+                    business operations needs and to perform certain services
+                    and functions, we may share Personal Information with
+                    vendors and service providers, including providers of
+                    hosting services, cloud services, and other information
+                    technology services providers, event management services,
+                    email communication software and email newsletter services,
+                    advertising and marketing services, and web analytics
+                    services. Pursuant to our instructions, these parties will
+                    access, process, or store Personal Information in the course
+                    of performing their duties to us.
+
+                    <br />Business Transfers: If we are involved in strategic
+                    transactions, reorganisation, bankruptcy, receivership, or
+                    transition of service to another provider (collectively a
+                    “Transaction”), your Personal Information and other
+                    information may be shared in the diligence process with
+                    counterparties and others assisting with the Transaction and
+                    transferred to a successor or affiliate as part of that
+                    Transaction along with other assets.
+
+                    <br />Legal Requirements: If required to do so by law or in
+                    the good faith belief that such action is necessary to (i)
+                    comply with a legal obligation, including to meet national
+                    security or law enforcement requirements, (ii) protect and
+                    defend our rights or property, (iii) prevent fraud, (iv) act
+                    in urgent circumstances to protect the personal safety of
+                    users of the Services, or the public, or (v) protect against
+                    legal liability.
+
+                    <br />Affiliates: We may share Personal Information with our
+                    affiliates, meaning an entity that controls, is controlled
+                    by, or is under common control with My-Eden. Our affiliates
+                    may use the Personal Information we share in a manner
+                    consistent with this Privacy Policy.
+
+                    <br />Other Users: certain actions you take may be visible
+                    to other users of the Service.
+
+                    <br />4.How to contact us; updating your information
+                    <br />Please contact us at admin@myeden.ai if you need to
+                    change or correct your Personal Information, or if you have
+                    any questions or concerns not already addressed in this
+                    Privacy Policy.
+
+                    <br />5.Privacy rights <br />The following disclosures are
+                    intended to provide additional information about
+
+                    <br />(1) the categories of Personal Information we collect
+                    (as defined above),
+
+                    <br />(2) the source of the Personal Information,
+
+                    <br />(3) how we use each category of Personal Information,
+                    and
+
+                    <br />(4) how we disclose Personal Information. These
+                    disclosures do not limit our ability to use or disclose
+                    information as described above.
+
+                    <br />Category of Personal Information
+
+                    <br />Sources of Personal Information
+
+                    <br />Use of Personal Information
+
+                    <br />Disclosure of Personal Information
+
+                    <br />Social Information
+
+                    <br />We may collect Social Information from you when you
+                    interact with our Social Media Pages.
+
+                    <br />We may use Social Information to perform analytics and
+                    to communicate with you.
+
+                    <br />We may disclose Social Information to our affiliates.
+
+                    <br />Communication Information
+
+                    <br />We collect Communication Information directly from
+                    you.
+
+                    <br />We use Communication Information for providing our
+                    Services and responding to you.
+
+                    <br />We disclose Communication Information to our
+                    affiliates and communication services providers.
+
+                    <br />Technical Information
+
+                    <br />We collect Technical Information from you.
+
+                    <br />We use Technical Information for analytics and in some
+                    cases, for moderation and prevention of fraud and malicious
+                    activity by users of our Services.
+
+                    <br />We disclose Technical Information to our affiliates
+                    and analytics provider(s).
+
+                    <br />We do not and will not sell your Personal Information.
+
+                    <br />Verification: in order to protect your Personal
+                    Information from unauthorised access or deletion, we may
+                    require you to verify your credentials before you can submit
+                    a request to know or delete Personal Information. If you do
+                    not have an account with us, or if we suspect fraudulent or
+                    malicious activity, we may ask you to provide additional
+                    Personal Information and proof of residency for
+                    verification. If we cannot verify your identity, we will not
+                    provide or delete your Personal Information.
+
+                    <br />Authorised Agents: you may submit a request to know or
+                    a request to delete your Personal Information through an
+                    authorised agent. If you do so, the agent must present
+                    signed written permission to act on your behalf and you may
+                    also be required to independently verify your identity and
+                    submit proof of your residency with us.
+
+                    <br />6.Children <br />Our Service is not directed to
+                    children who are under the age of 13. My-Eden does not
+                    knowingly collect Personal Information from children under
+                    the age of 13. If you have reason to believe that a child
+                    under the age of 18 has provided Personal Information to
+                    My-Eden through the Service please email us at
+                    admin@myeden.ai and we will endeavour to delete that
+                    information from our databases.
+
+                    <br />7.Links to other websites <br />The Service may
+                    contain links to other websites not operated or controlled
+                    by My-Eden, including social media services (“Third Party
+                    Sites”). The information that you share with Third Party
+                    Sites will be governed by the specific privacy policies and
+                    terms of service of the Third Party Sites and not by this
+                    Privacy Policy. By providing these links we do not imply
+                    that we endorse or have reviewed these sites. Please contact
+                    the Third Party Sites directly for information on their
+                    privacy practices and policies.
+
+                    <br />8.Security <br />You use the Service at your own risk.
+                    We implement commercially reasonable technical,
+                    administrative, and organisational measures to protect
+                    Personal Information both online and offline from loss,
+                    misuse, and unauthorised access, disclosure, alteration, or
+                    destruction. However, no Internet or e-mail transmission is
+                    ever fully secure or error free. In particular, e-mail sent
+                    to or from us may not be secure. Therefore, you should take
+                    special care in deciding what information you send to us via
+                    the Service or e-mail. In addition, we are not responsible
+                    for circumvention of any privacy settings or security
+                    measures contained on the Service, or third party websites.
+
+                    <br />9.International users <br />By using our Service, you
+                    understand and acknowledge that your Personal Information
+                    will be transferred from your location to our facilities and
+                    servers in India.
+
+                    <br />10.Your choices <br />If you choose not to provide
+                    Personal Information that is needed to use some features of
+                    our Service, you may be unable to use those features.
+
+                    <br />11.Changes to the privacy policy <br />We may change
+                    this Privacy Policy at any time. When we do we will post an
+                    updated version on this page, unless another type of notice
+                    is required by applicable law. By continuing to use our
+                    Service or providing us with Personal Information after we
+                    have posted an updated Privacy Policy, or notified you by
+                    other means, you consent to the revised Privacy Policy.
                   </div>
                 </div>
+              </div>
+            </div>
+            <a
+              class="text-white go-to-footer hide-mobile animated-layer bg-primary animated-btn cta" 
+              style="opacity: 1;"
+              href="#footer"
+              id=""
+            >
+              <span> </span>
+            </a>
+          </section>
+          <!-- PRIVACY SECTION ENDS -->
+
+          <img alt="" class="hide-desktop z-1" src="assets/separator-copyright-mobile.png">
+
+          <section id="footer" class="copyright">
+            <div class="text-left" style="text-align: center">
+              <a href="index.html"
+                ><img
+                  src="assets\edenlogo\footer.svg"
+                  id="home-link"
+                  width="200"
+              /></a>
+              <h6>Company</h6>
+              <ul class="flex-column mb-3">
+                <li>
+                  <a style="text-decoration: none" href="about.html">
+                    About Us</a
+                  >
+                </li>
+                <li>
+                  <a style="text-decoration: none" href="blog.html"> Blog</a>
+                </li>
+                <li>
+                  <a style="text-decoration: none" href="careers.html">
+                    Careers
+                  </a>
+                </li>
+                <li>
+                  <a style="text-decoration: none" href="pricing.html">
+                    Pricing</a
+                  >
+                </li>
+              </ul>
+              <h6>Quick Links</h6>
+              <ul class="flex-column mb-3">
+                <li>
+                  <a style="text-decoration: none" href="policies.html">
+                    Policies</a
+                  >
+                </li>
+                <li>
+                  <a style="text-decoration: none" href="privacy.html">
+                    Privacy Policy</a
+                  >
+                </li>
+                <li>
+                  <a style="text-decoration: none" href="terms.html">
+                    Terms of Use</a
+                  >
+                </li>
+                <li>
+                  <a style="text-decoration: none" href="refund.html">
+                    Refund Policy
+                  </a>
+                </li>
+              </ul>
+              <h6>Contact</h6>
+              <ul class="flex-column mb-3">
+                <li>
+                  <a
+                    style="text-decoration: none"
+                    href="tel:+916114356118"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    +919915080818</a
+                  >
+                </li>
+                <li>
+                  <a
+                    style="text-decoration: none"
+                    href="mailto: contact@myeden.ai"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    contact@myeden.ai</a
+                  >
+                </li>
+                <li>
+                  <a
+                    style="text-decoration: none"
+                    href="https://goo.gl/maps/1pYDJ3N41kmoHY9T9"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Bengaluru, India</a
+                  >
+                </li>
+              </ul>
+              <span>&#169; 2023 My Eden AI</span>
+              <ul>
+                <li>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-brands fa-github"></i>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://twitter.com/myedenai"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i class="fa-brands fa-twitter"></i>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.linkedin.com/company/myedenai/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i class="fa-brands fa-linkedin"></i>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.facebook.com/myedenai"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i class="fa-brands fa-facebook"></i>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.instagram.com/myedenai/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i class="fa-brands fa-instagram"></i>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.youtube.com/@myedenai"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i class="fa-brands fa-youtube"></i>
+                  </a>
+                </li>
+              </ul>
             </div>
           </section>
-           <!-- PRIVACY SECTION ENDS -->
-
-           <section class="copyright">
-            <div class="text-left" style="text-align: center;">
-               <a href="index.html"><img src="assets\edenlogo\footer.svg" id="home-link" width="200"></a>
-               <h6> Company </h6>
-               <ul class="flex-column mb-3">
-                 <li><a style="text-decoration: none" href="about.html"> About Us</a></li>
-                 <li><a style="text-decoration: none" href="blog.html"> Blog</a></li>
-                 <li><a style="text-decoration: none" href="careers.html"> Careers </a></li>
-                 <li><a style="text-decoration: none" href="pricing.html"> Pricing</a></li>
-               </ul>
-             <h6> Quick Links </h6>
-               <ul class="flex-column mb-3">
-                 <li><a style="text-decoration: none" href="policies.html"> Policies</a></li>
-                 <li><a style="text-decoration: none" href="privacy.html"> Privacy Policy</a></li>
-                 <li><a style="text-decoration: none" href="terms.html"> Terms of Use</a></li>
-                 <li><a style="text-decoration: none" href="refund.html"> Refund Policy </a></li>
-               </ul>
-             <h6> Contact </h6>
-               <ul class="flex-column mb-3">
-                 <li><a style="text-decoration: none" href="tel:+916114356118" target="_blank" rel="noopener noreferrer"> +919915080818</a></li>
-                 <li><a style="text-decoration: none" href="mailto: contact@myeden.ai" target="_blank" rel="noopener noreferrer"> contact@myeden.ai</a></li>
-                 <li><a style="text-decoration: none" href="https://goo.gl/maps/1pYDJ3N41kmoHY9T9" target="_blank" rel="noopener noreferrer"> Bengaluru, India</a></li>
-               </ul>
-              <span>&#169; 2023 My Eden AI</span>
-               <ul>
-                  <li>
-                     <a href="#" target="_blank" rel="noopener noreferrer">
-                     <i class="fa-brands fa-github"></i>
-                     </a>
-                  </li>
-                  <li>
-                     <a href="https://twitter.com/myedenai" target="_blank" rel="noopener noreferrer">
-                     <i class="fa-brands fa-twitter"></i>
-                     </a>
-                  </li>
-                  <li>
-                     <a href="https://www.linkedin.com/company/myedenai/" target="_blank" rel="noopener noreferrer">
-                     <i class="fa-brands fa-linkedin"></i>
-                     </a>
-                  </li>
-                  <li>
-                     <a href="https://www.facebook.com/myedenai" target="_blank" rel="noopener noreferrer">
-                     <i class="fa-brands fa-facebook"></i>
-                     </a>
-                  </li>
-                  <li>
-                     <a href="https://www.instagram.com/myedenai/" target="_blank" rel="noopener noreferrer">
-                     <i class="fa-brands fa-instagram"></i>
-                     </a>
-                  </li>
-                  <li>
-                     <a href="https://www.youtube.com/@myedenai" target="_blank" rel="noopener noreferrer">
-                     <i class="fa-brands fa-youtube"></i>
-                     </a>
-                  </li>
-               </ul>
-            </div>
-            
-         </section>
-         <!-- COPYRIGHT SECTION ENDS -->
-          </main>
-       </div>
-         <!-- SCROLL BAR STARTS -->
-         <div class="scroll-progress hide-mobile">
-            <div>
-               <div></div>
-            </div>
-         </div>
-         <!-- SCROLL BAR ENDS -->
+          <!-- COPYRIGHT SECTION ENDS -->
+        </main>
       </div>
-      <!-- WRAPPER ENDS -->
-      <script src="js/jquery-3.6.3.min.js"></script>
-      <script src="js/jquery.mCustomScrollbar.min.js"></script>
-      <script src="js/swiper-bundle.min.js"></script>
-      <script src="js/wow.min.js"></script>
-      <script src="js/custom.js"></script>
+      <!-- SCROLL BAR STARTS -->
+      <div class="scroll-progress hide-mobile">
+        <div>
+          <div></div>
+        </div>
+      </div>
+      <!-- SCROLL BAR ENDS -->
+    </div>
+    <!-- WRAPPER ENDS -->
+    <script src="js/jquery-3.6.3.min.js"></script>
+    <script src="js/jquery.mCustomScrollbar.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/custom.js"></script>
 
-      <!-- Style Switcher - Demo Only -->
-      <script src="js/styleswitcher.js"></script>
-   </body>
-</html>>
+    <!-- Style Switcher - Demo Only -->
+    <script src="js/styleswitcher.js"></script>
+  </body>
+</html>
+>
