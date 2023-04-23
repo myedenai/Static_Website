@@ -91,4 +91,16 @@
     font-size: 12px;
     padding: 5px;
   }
+
+  .social{
+    display: flex; 
+  }
+  .social li{
+    padding: 5px;
+  }
+}
+
+.blog-content{
+  font-size: 18px;
+  letter-spacing: 2px;
 }
